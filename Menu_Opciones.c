@@ -10,12 +10,13 @@ int main(void)
 
     do{
         system("cls");
-        printf("1. Cargar datos de archivo \n");
+	printf("\tBIENVENIDO AL MENU DE OPCIONES\t");
+        printf("\n1. Cargar datos de archivo \n");
         printf("2. Modificar datos de una persona \n");
         printf("3. Mostrar la lista de personas\n");
         printf("4. Guardar datos en archvio\n");
         printf("5. Salir \n\n");
-        printf("opcion a escoger: \n");
+        printf("Introduzca su opcion: \n");
         scanf("%d",&opc);
         switch(opc){
         case 1:
